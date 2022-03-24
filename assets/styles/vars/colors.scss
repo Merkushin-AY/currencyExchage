@@ -1,0 +1,10 @@
+@use "sass:color";
+
+$textColor: #ffffff;
+$borderColor: #464f65;
+$accentBorderColor: #abc3cc;
+$error: #f74343;
+
+$blockGradient: linear-gradient(75deg, rgba(22,26,34,1) 0%, rgba(64,63,98,1) 100%);
+$separatorGradient: radial-gradient(circle, $borderColor 0%, color.adjust($borderColor, $alpha: -1) 100%);
+$accentGradient: linear-gradient(135deg, #616268 0%, #41444f 100%);

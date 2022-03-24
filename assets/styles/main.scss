@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: 'Oxygen', sans-serif;
+  color: $textColor;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.container {
+  max-width: 1280px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.3s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
